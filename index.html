@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexoEventos — Decoración de eventos en Bogotá</title>
+  <meta name="description" content="Diseño, montaje y escenografía para fiestas infantiles, baby showers, cumpleaños y eventos empresariales en Bogotá. Cotiza por WhatsApp en minutos.">
+
+  <meta property="og:title" content="NexoEventos — Decoración de eventos en Bogotá">
+  <meta property="og:description" content="Diseño, montaje y escenografía para eventos en Bogotá.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "NexoEventos",
+    "description": "Decoración profesional para eventos en Bogotá.",
+    "telephone": "+573000000000",
+    "email": "hola@nexoeventos.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Bogotá", "addressCountry": "CO" },
+    "url": "https://nexoeventos.com",
+    "priceRange": "$$",
+    "areaServed": "Bogotá",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "08:00", "closes": "20:00"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<div class="header-wrap">
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#inicio" class="logo" aria-label="NexoEventos - Inicio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 3v18M3 12h18"/>
+          </svg>
+        </span>
+        <span class="logo__text">NexoEventos</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/573000000000?text=Hola%20NexoEventos%2C%20quiero%20cotizar"
+         class="btn btn--dark header__cta" target="_blank" rel="noopener">
+        <span class="btn__dot"></span>
+        Cotizar
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+    <div class="hero__blob hero__blob--3"></div>
+    <div class="hero__grid"></div>
+  </div>
+
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <span class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        Bogotá · Disponibles 2026
+      </span>
+
+      <h1 class="hero__title">
+        Eventos que <em>se sienten</em><br>
+        como <em>se imaginan</em>
+      </h1>
+
+      <p class="hero__subtitle">
+        Diseño, montaje y escenografía para fiestas infantiles, baby showers,
+        cumpleaños y eventos empresariales. Sin sorpresas, sin estrés.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="https://wa.me/573000000000?text=Hola%20NexoEventos%2C%20quiero%20cotizar"
+           class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          Cotizar por WhatsApp
+        </a>
+        <a href="#galeria" class="btn btn--ghost btn--lg">
+          Ver trabajos
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="hero__meta">
+        <div class="hero__meta-item">
+          <strong>+200</strong>
+          <span>eventos montados</span>
+        </div>
+        <div class="hero__meta-divider"></div>
+        <div class="hero__meta-item">
+          <strong>100%</strong>
+          <span>montaje incluido</span>
+        </div>
+        <div class="hero__meta-divider"></div>
+        <div class="hero__meta-item">
+          <strong>48h</strong>
+          <span>respuesta exprés</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__card hero__card--main">
+        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&q=80&auto=format&fit=crop"
+             alt="Decoración elegante de evento" width="700" height="800" loading="eager" fetchpriority="high">
+      </div>
+      <div class="hero__card hero__card--float1">
+        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&q=80&auto=format&fit=crop"
+             alt="Fiesta infantil" width="300" height="300" loading="lazy">
+      </div>
+      <div class="hero__card hero__card--float2">
+        <div class="hero__pill">
+          <span class="hero__pill-dot"></span>
+          <div>
+            <strong>4.9</strong>
+            <span>· 120 reseñas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Fiestas infantiles</span><span>✦</span>
+      <span>Baby showers</span><span>✦</span>
+      <span>Cumpleaños</span><span>✦</span>
+      <span>Eventos empresariales</span><span>✦</span>
+      <span>Escenografías</span><span>✦</span>
+      <span>Diseño a medida</span><span>✦</span>
+      <span>Fiestas infantiles</span><span>✦</span>
+      <span>Baby showers</span><span>✦</span>
+      <span>Cumpleaños</span><span>✦</span>
+      <span>Eventos empresariales</span><span>✦</span>
+      <span>Escenografías</span><span>✦</span>
+      <span>Diseño a medida</span><span>✦</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="section" id="servicios">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Servicios</span>
+      <h2 class="section__title">
+        Todo lo que tu evento <em>necesita</em>
+      </h2>
+      <p class="section__lead">
+        Diseñamos, producimos y montamos. Tú solo eliges la fecha.
+      </p>
+    </div>
+
+    <div class="services">
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M12 3a15 15 0 0 1 0 18M3 12h18"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Fiestas infantiles</h3>
+        <p class="service__text">Temáticas personalizadas, globos, backdrops y mesas dulces.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v6M9 9h6l1 4H8l1-4zM7 21h10M9 13v8M15 13v8"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Baby showers</h3>
+        <p class="service__text">Detalles delicados y emotivos para recibir al bebé.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 21h16M6 21V11a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v10M9 9V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Cumpleaños</h3>
+        <p class="service__text">Para cada edad, un estilo propio.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Eventos empresariales</h3>
+        <p class="service__text">Lanzamientos, aniversarios y eventos corporativos.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20h18M5 20V8l7-5 7 5v12M9 20v-6h6v6"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Escenografías</h3>
+        <p class="service__text">Montajes teatrales y ambientaciones a gran escala.</p>
+      </article>
+
+      <article class="service reveal">
+        <div class="service__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </div>
+        <h3 class="service__title">Diseño a medida</h3>
+        <p class="service__text">Cuéntanos tu idea y la hacemos realidad.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section section--alt" id="nosotros">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Por qué NexoEventos</span>
+      <h2 class="section__title">Cuidamos cada <em>detalle</em></h2>
+    </div>
+
+    <div class="features">
+      <div class="feature reveal">
+        <div class="feature__num">01</div>
+        <h3 class="feature__title">Diseño personalizado</h3>
+        <p class="feature__text">Cada evento es único. Creamos un concepto exclusivo para ti.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__num">02</div>
+        <h3 class="feature__title">Montaje completo</h3>
+        <p class="feature__text">Llegamos, montamos, desmontamos. Tú solo disfrutas.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__num">03</div>
+        <h3 class="feature__title">Materiales premium</h3>
+        <p class="feature__text">Todo se ve profesional en fotos y en persona.</p>
+      </div>
+      <div class="feature reveal">
+        <div class="feature__num">04</div>
+        <h3 class="feature__title">Puntualidad</h3>
+        <p class="feature__text">Respetamos tus tiempos. Tu evento empieza cuando debe.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="section" id="galeria">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Galería</span>
+      <h2 class="section__title">Algunos <em>trabajos</em></h2>
+    </div>
+
+    <div class="gallery">
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80&auto=format&fit=crop" alt="Fiesta infantil" loading="lazy">
+      </figure>
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80&auto=format&fit=crop" alt="Baby shower" loading="lazy">
+      </figure>
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&q=80&auto=format&fit=crop" alt="Cumpleaños" loading="lazy">
+      </figure>
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=600&q=80&auto=format&fit=crop" alt="Evento empresarial" loading="lazy">
+      </figure>
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&q=80&auto=format&fit=crop" alt="Escenografía" loading="lazy">
+      </figure>
+      <figure class="gallery__item reveal">
+        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&q=80&auto=format&fit=crop" alt="Decoración" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESO ============ -->
+<section class="section section--alt" id="proceso">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Proceso</span>
+      <h2 class="section__title">Simple, claro y <em>sin sorpresas</em></h2>
+    </div>
+
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step__num">01</span>
+        <h3 class="step__title">Nos cuentas tu idea</h3>
+        <p class="step__text">Por WhatsApp. Fecha, lugar, temática y presupuesto.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step__num">02</span>
+        <h3 class="step__title">Diseñamos la propuesta</h3>
+        <p class="step__text">Te enviamos una propuesta visual clara.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step__num">03</span>
+        <h3 class="step__title">Confirmas y reservas</h3>
+        <p class="step__text">Aprobamos detalles y bloqueamos tu fecha.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step__num">04</span>
+        <h3 class="step__title">Montamos y disfrutas</h3>
+        <p class="step__text">Llegamos antes, montamos todo y tú celebras.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PRÓXIMAMENTE ============ -->
+<section class="section coming" id="proximamente">
+  <div class="container">
+    <div class="coming__card reveal">
+      <div class="coming__bg" aria-hidden="true">
+        <div class="coming__glow"></div>
+      </div>
+      <div class="coming__inner">
+        <span class="coming__badge">Próximamente · 2026</span>
+        <h2 class="coming__title">
+          Estamos preparando <em>algo grande</em>
+        </h2>
+        <p class="coming__text">
+          Muy pronto ampliamos nuestros servicios con logística integral de eventos
+          y producción de ferias regionales.
+        </p>
+        <div class="coming__grid">
+          <div class="coming__item">
+            <div class="coming__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 3h15v13H1zM16 8h4l3 3v5h-7M5.5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18.5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+              </svg>
+            </div>
+            <h3>Logística de eventos</h3>
+            <p>Transporte, bodegaje y coordinación integral.</p>
+          </div>
+          <div class="coming__item">
+            <div class="coming__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18M5 21V9l7-5 7 5v12M12 21v-6M9 12h6"/>
+              </svg>
+            </div>
+            <h3>Ferias de pueblo</h3>
+            <p>Montaje y producción de ferias regionales.</p>
+          </div>
+        </div>
+        <a href="https://wa.me/573000000000?text=Hola%2C%20quiero%20saber%20sobre%20los%20pr%C3%B3ximos%20servicios"
+           class="btn btn--light" target="_blank" rel="noopener">
+          Avísenme cuando esté listo
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIOS ============ -->
+<section class="section" id="testimonios">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Testimonios</span>
+      <h2 class="section__title">Clientes <em>felices</em></h2>
+    </div>
+
+    <div class="testimonials">
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p>"Quedó espectacular. Superaron lo que imaginábamos para el cumple de mi hija."</p>
+        <cite>
+          <span class="testimonial__avatar">C</span>
+          <span>Carolina M.</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p>"Muy profesionales. Montaron todo a tiempo y el resultado fue impecable."</p>
+        <cite>
+          <span class="testimonial__avatar">A</span>
+          <span>Andrés R.</span>
+        </cite>
+      </blockquote>
+      <blockquote class="testimonial reveal">
+        <div class="testimonial__stars">★★★★★</div>
+        <p>"Contratamos para un evento de empresa y quedamos fascinados. 100% recomendados."</p>
+        <cite>
+          <span class="testimonial__avatar">L</span>
+          <span>Laura G.</span>
+        </cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--alt" id="faq">
+  <div class="container container--narrow">
+    <div class="section__head reveal">
+      <span class="section__eyebrow">Preguntas</span>
+      <h2 class="section__title">Resolvemos tus <em>dudas</em></h2>
+    </div>
+
+    <div class="faq">
+      <details class="faq__item reveal">
+        <summary>¿Con cuánta anticipación debo reservar?</summary>
+        <p>Recomendamos reservar con al menos 2 semanas de anticipación. Para fechas especiales (diciembre, mayo), mejor 1 mes antes.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>¿El montaje y desmontaje están incluidos?</summary>
+        <p>Sí. Todos nuestros paquetes incluyen montaje, desmontaje y recogida del material.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>¿Trabajan fuera de Bogotá?</summary>
+        <p>Sí, cubrimos varias ciudades. Escríbenos por WhatsApp con tu ubicación y te confirmamos.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>¿Cómo se realiza el pago?</summary>
+        <p>Se reserva con un anticipo del 50% y el saldo se paga el día del evento o antes.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>¿Puedo pedir una decoración totalmente personalizada?</summary>
+        <p>¡Claro! Es lo que más hacemos. Cuéntanos tu idea y la diseñamos a tu medida.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="cta-final" id="contacto">
+  <div class="container">
+    <div class="cta-final__card reveal">
+      <div class="cta-final__bg" aria-hidden="true"></div>
+      <div class="cta-final__inner">
+        <span class="section__eyebrow">Contacto</span>
+        <h2 class="cta-final__title">
+          ¿Listo para tu <em>próximo evento</em>?
+        </h2>
+        <p class="cta-final__text">
+          Cuéntanos qué tienes en mente. Te respondemos en minutos.
+        </p>
+
+        <div class="cta-final__buttons">
+          <a href="https://wa.me/573000000000?text=Hola%20NexoEventos%2C%20quiero%20cotizar"
+             class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+            Escribir por WhatsApp
+          </a>
+          <a href="mailto:hola@nexoeventos.com" class="btn btn--ghost btn--lg">
+            Enviar correo
+          </a>
+        </div>
+
+        <div class="cta-final__info">
+          <span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Bogotá, Colombia
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            Lun – Dom · 8am a 8pm
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            hola@nexoeventos.com
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__copy">
+      © <span id="year"></span> NexoEventos. Todos los derechos reservados.
+    </p>
+
+    <div class="footer__social">
+      <a href="https://instagram.com/nexoeventos" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a href="https://facebook.com/nexoeventos" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/>
+        </svg>
+      </a>
+      <a href="https://tiktok.com/@nexoeventos" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <path d="M16.5 3a5.5 5.5 0 0 0 4.5 4.4v3.1a8.6 8.6 0 0 1-4.5-1.4v6.6a6.7 6.7 0 1 1-6.7-6.7c.3 0 .7 0 1 .1v3.2a3.5 3.5 0 1 0 2.5 3.4V3h3.2z"/>
+        </svg>
+      </a>
+      <a href="https://wa.me/573000000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOTANTE ============ -->
+<a href="https://wa.me/573000000000?text=Hola%20NexoEventos%2C%20quiero%20cotizar"
+   class="wa-float" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp">
+  <span class="wa-float__tooltip">Cotiza tu evento</span>
+  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
